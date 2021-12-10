@@ -1,6 +1,6 @@
 package com.codegym.repo;
 
-import com.codegym.model.AppRole;
+import com.codegym.model.entity.AppRole;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

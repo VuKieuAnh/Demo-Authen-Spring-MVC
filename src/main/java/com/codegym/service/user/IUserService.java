@@ -1,6 +1,6 @@
 package com.codegym.service.user;
 
-import com.codegym.model.AppUser;
+import com.codegym.model.entity.AppUser;
 import com.codegym.service.IGeneralService;
 import org.springframework.security.core.userdetails.UserDetailsService;
 

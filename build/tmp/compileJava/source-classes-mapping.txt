@@ -1,25 +1,35 @@
-com/codegym/service/user/IUserService.java
- com.codegym.service.user.IUserService
-com/codegym/model/AppUser.java
- com.codegym.model.AppUser
-com/codegym/repo/IRoleRepository.java
- com.codegym.repo.IRoleRepository
+com/codegym/service/IGeneralService.java
+ com.codegym.service.IGeneralService
 com/codegym/config/SecurityInit.java
  com.codegym.config.SecurityInit
 com/codegym/repo/IUserRepository.java
  com.codegym.repo.IUserRepository
-com/codegym/model/UserPrinciple.java
- com.codegym.model.UserPrinciple
-com/codegym/controller/SecurityController.java
- com.codegym.controller.SecurityController
-com/codegym/model/AppRole.java
- com.codegym.model.AppRole
+com/codegym/service/user/IUserService.java
+ com.codegym.service.user.IUserService
+com/codegym/model/entity/AppRole.java
+ com.codegym.model.entity.AppRole
+com/codegym/model/entity/AppUser.java
+ com.codegym.model.entity.AppUser
 com/codegym/config/AppConfig.java
  com.codegym.config.AppConfig
-com/codegym/service/IGeneralService.java
- com.codegym.service.IGeneralService
+com/codegym/model/dto/UserPrinciple.java
+ com.codegym.model.dto.UserPrinciple
+com/codegym/repo/IRoleRepository.java
+ com.codegym.repo.IRoleRepository
 com/codegym/service/user/UserService.java
  com.codegym.service.user.UserService
+com/codegym/service/jwt/JwtService.java
+ com.codegym.service.jwt.JwtService
+com/codegym/config/RestAuthenticationEntryPoint.java
+ com.codegym.config.RestAuthenticationEntryPoint
+com/codegym/controller/SecurityController.java
+ com.codegym.controller.SecurityController
+com/codegym/config/JwtAuthenticationFilter.java
+ com.codegym.config.JwtAuthenticationFilter
+com/codegym/config/CustomAccessDeniedHandler.java
+ com.codegym.config.CustomAccessDeniedHandler
+com/codegym/model/JwtResponse.java
+ com.codegym.model.JwtResponse
 com/codegym/config/AppInit.java
  com.codegym.config.AppInit
 com/codegym/config/SecurityConfig.java

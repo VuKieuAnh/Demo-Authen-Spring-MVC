@@ -1,7 +1,7 @@
 package com.codegym.service.user;
 
-import com.codegym.model.AppUser;
-import com.codegym.model.UserPrinciple;
+import com.codegym.model.entity.AppUser;
+import com.codegym.model.dto.UserPrinciple;
 import com.codegym.repo.IUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
